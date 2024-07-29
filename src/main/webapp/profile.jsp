@@ -69,6 +69,8 @@ if (activeUser == null) {
 						<button type="button" id="order-btn"
 							class="list-group-item list-group-item-action list-btn">My
 							Orders</button>
+							<button type="button" id="help-center-btn" 
+							class="list-group-item list-group-item-action list-btn">Help Center</button>
 						<button type="button" id="logout-btn"
 							class="list-group-item list-group-item-action list-btn"
 							onclick="window.open('LogoutServlet?user=user', '_self')">Logout</button>
@@ -87,6 +89,9 @@ if (activeUser == null) {
 					<div id="order" style="display: none;">
 						<%@include file="order.jsp"%>    
 					</div>
+					<div id="help-center" style="display: none;">
+                        <%@include file="helpCenter.jsp"%>
+                    </div>
 				</div>
 			</div>  
 		</div>
@@ -128,6 +133,17 @@ if (activeUser == null) {
 				$('#profile-btn').removeClass('cus-active');
 				$('#wishlist-btn').removeClass('cus-active');
 			});
+			 $('#help-center-btn').click(function() {
+		            $('#help-center').show();
+		            $('#profile').hide();
+		            $('#wishlist').hide();
+		            $('#order').hide();
+
+		            $(this).addClass('cus-active');
+		            $('#profile-btn').removeClass('cus-active');
+		            $('#wishlist-btn').removeClass('cus-active');
+		            $('#order-btn').removeClass('cus-active');
+		        });
 		});
 	</script>
 </body>

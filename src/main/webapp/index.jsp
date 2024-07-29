@@ -78,13 +78,13 @@ List<Product> topDeals = productDao.getDiscountedProducts();
 		class="carousel slide carousel-dark mt-3 mb-3" data-bs-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="Images/scroll_img2.png" class="d-block w-100" alt="...">
+				<img src="Images/scroll3.jpg" class="d-block w-100" alt="...">
 			</div>
 			<div class="carousel-item">
-				<img src="Images/scroll_img1.png" class="d-block w-100" alt="...">
+				<img src="Images/scroll1.jpg" class="d-block w-100" alt="...">
 			</div>
 			<div class="carousel-item">
-				<img src="Images/scroll_img3.png" class="d-block w-100" alt="...">
+				<img src="Images/scroll2.png" class="d-block w-100" alt="...">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button"
@@ -105,8 +105,8 @@ List<Product> topDeals = productDao.getDiscountedProducts();
 		<div class="row row-cols-1 row-cols-md-4 g-3">
 			<div class="col">
 				<div class="container text-center px-5 py-5">
-					<h1>Latest Products</h1>
-					<img src="Images\product.png" class="card-img-top"
+					<h1>Latest Images</h1>
+					<img src="Images\product1.jpg" class="card-img-top"
 						style="max-width: 100%; max-height: 200px; width: auto;">
 				</div>
 			</div>
@@ -146,7 +146,7 @@ List<Product> topDeals = productDao.getDiscountedProducts();
 
 	<!-- product with heavy deals -->
 	<div class="container-fluid py-3 px-3" style="background: #f0fffe;">
-		<h3>Hot Deals</h3>
+		<h3>Trending Arts</h3>
 		<div class="row row-cols-1 row-cols-md-4 g-3">
 			<%
 			for (int i = 0; i < Math.min(4, topDeals.size()); i++) {

@@ -35,7 +35,8 @@ if (searchKey != null) {
 if (prodList != null && prodList.size() == 0) {
 
 	message = "No items are available for \""
-	+ (searchKey != null ? searchKey : categoryDao.getCategoryName(Integer.parseInt(catId.trim()))) + "\"";
+		+ (searchKey != null ? searchKey : (catId != null && !catId.trim().isEmpty() ? categoryDao.getCategoryName(Integer.parseInt(catId.trim())) : "Unknown Category")) + "\"";
+
 
 	prodList = productDao.getAllProducts();
 }

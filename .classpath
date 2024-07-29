@@ -13,9 +13,9 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="D:/MySql/mysql-connector-j-8.0.31/mysql-connector-j-8.0.31.jar"/>
-	<classpathentry kind="lib" path="C:/Users/asus/Downloads/angus-activation-2.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/asus/Downloads/jakarta.activation-api-2.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/asus/Downloads/jakarta.mail-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tusarjava/Major Project/E-Commerce-Website/src/main/webapp/WEB-INF/lib/angus-activation-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tusarjava/Major Project/E-Commerce-Website/src/main/webapp/WEB-INF/lib/jakarta.activation-api-2.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tusarjava/Major Project/E-Commerce-Website/src/main/webapp/WEB-INF/lib/jakarta.mail-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhi/Downloads/mysql-connector-java-8.0.28.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
