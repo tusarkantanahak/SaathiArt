@@ -1,5 +1,7 @@
 # SaathiArt
 A comprehensive e-commerce platform for buying and selling art, built using Java. It includes user registration, login, profile management, shopping cart, order placement, wishlist features, and an admin dashboard for managing artworks, users, and orders.
+
+
 Features
 User Registration & Login: Secure user authentication and profile management.
 Shopping Cart & Wishlist: Users can add artworks to their cart or wishlist for easy purchase.
