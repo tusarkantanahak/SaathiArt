@@ -3,6 +3,7 @@ A comprehensive e-commerce platform for buying and selling art, built using Java
 
 
 Features
+
 User Registration & Login: Secure user authentication and profile management.
 Shopping Cart & Wishlist: Users can add artworks to their cart or wishlist for easy purchase.
 Order Placement: Streamlined checkout process with email confirmation.
@@ -11,6 +12,7 @@ Art Categories: Easy categorization for better user experience.
 Email Notifications: Automatic email notifications for order confirmations.
 
 Usage
+
 User Registration/Login:
 
 Navigate to /register to create an account.
